@@ -24,7 +24,6 @@ jobs:
     - name: Run pylint
       run: |
         pylint calc.py test_calculator.py
-      # Прервет workflow, если pylint вернет ошибки
 
     - name: Run tests with pytest
       run: |
